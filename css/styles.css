@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: url("../images/el-taco-no-hace-la-personal-bg.png");
+  background-color: #f1f4f5;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo-img {
+  position: absolute;
+  top: 3rem;
+  left: 2.2rem;
+  width: 7%;
+}
+
+.register-email {
+  align-self: center;
+  width: 50%;
+  height: 60vh;
+  order: 2;
+  padding: 3rem 2rem;
+}
+
+.inputs {
+  max-width: 100%;
+}
+
+.enter_email,
+.Spice_me_up {
+  padding: 0.9rem;
+  font-family: sans-serif;
+  height: 55px;
+  border: solid 1px #bec4c6;
+  min-width: 300px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.Spice_me_up {
+  background-color: #2bbd3e;
+  border: none;
+  box-shadow: 0.3rem 0.3rem 0px #137d1b;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  margin: 23px auto;
+  min-width: 160px;
+  padding: 0.2rem 0.8rem 0.1rem;
+  letter-spacing: 0.07rem;
+  transition: all 0.2s;
+}
+
+.title {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  font-family: monospace;
+  max-width: 510px;
+  color: #7d7d7d;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sub {
+  position: absolute;
+  left: 30rem;
+  top: 38rem;
+  font-size: 0.8rem;
+  color: #969696;
+}
+
+.noah-img {
+  height: 80vh;
+  order: 0;
+}
+
+/* WHAT OTHERS ARE SAYING */
+
+.what_others_are_saying {
+  width: 100%;
+  height: 68vh;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.second-container,
+.title,
+.quote {
+  margin: 1.5rem 0;
+}
+
+.second-container .title {
+  font-size: 1rem;
+}
+
+.quote {
+  width: 60%;
+}
+
+.quote_de {
+  position: absolute;
+  left: 13rem;
+  top: 46rem;
+  font-size: 5rem;
+  margin-left: 0.1rem;
+}
+
+.quote p {
+  color: #5b5b5bd0;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author span {
+  margin: 0.4rem;
+}
+
+.blog {
+  align-self: center;
+  margin-top: 3rem;
+}
+
+.blog a {
+  color: #2fdd3f;
+  text-decoration: none;
+  border-bottom: 2px solid #2fdd3f;
+}
+
+.arrow {
+  margin-left: 0.2rem;
+  font-family: fantasy;
+  font-size: 2rem;
+}
